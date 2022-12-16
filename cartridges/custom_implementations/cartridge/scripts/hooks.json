@@ -1,8 +1,0 @@
-{
-    "hooks": [
-        {
-            "name": "app.validate.address",
-            "scripts": "./hooks/validateAddress"
-        }
-    ]
-}
