@@ -1,2 +1,1 @@
-
-app_storefront_base
+plugin_wishlist:app_storefront_base
