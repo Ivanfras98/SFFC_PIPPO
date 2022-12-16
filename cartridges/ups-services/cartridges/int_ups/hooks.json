@@ -1,0 +1,8 @@
+{
+  "hooks": [
+    {
+      "name": "app.shipping.addressValidation",
+      "script": "~/cartridge/scripts/checkout/shipping"
+    }
+  ]
+}
