@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata xmlns="http://www.demandware.com/xml/impex/metadata/2006-10-31">
+    <custom-type type-id="Newsletter_Forms">
+        <display-name xml:lang="x-default">Newsletter</display-name>
+        <description xml:lang="x-default">Subscribe to newsletter</description>
+        <staging-mode>no-staging</staging-mode>
+        <storage-scope>site</storage-scope>
+        <retention-days>3</retention-days>
+        <key-definition attribute-id="orderId">
+            <type>string</type>
+            <min-length>5</min-length>
+        </key-definition>
+        <attribute-definitions>
+            <attribute-definition attribute-id="email">
+                <display-name xml:lang="x-default">Email</display-name>
+                <type>string</type>
+                <localizable-flag>false</localizable-flag>
+                <mandatory-flag>true</mandatory-flag>
+                <externally-managed-flag>true</externally-managed-flag>
+                <min-length>0</min-length>
+            </attribute-definition>
+        </attribute-definitions>
+    </custom-type>
+</metadata>
